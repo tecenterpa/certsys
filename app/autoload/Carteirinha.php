@@ -3,8 +3,7 @@
     class Carteirinha{
 
         public  $nomeAluno;
-        public  $cpfAluno;
-        public  $cursos;
+        public  $cpfAluno;        
         public  $turmaId;
         public  $regId;
 
@@ -13,11 +12,26 @@
 
             $this->nomeAluno    =   $nomeAluno;
             $this->cpfAluno     =   $cpfAluno;
-            $this->cursos       =   $cursos;
             $this->turmaId      =   $turmaId;
             $this->regId        =   $regId;
         }
 
+    }
+
+    class ListaCursos extends Carteirinha{
+
+        public $cursos;
+        
+        //get and set cursos ----------- inicio
+        public function getCursos(){
+            return $this->cursos;
+          }
+      
+          public function setCursos($cursos){
+            $this->cursos = $cursos;
+          }
+        //get and set cursos ----------- fim
+    
     }
 
 ?>
