@@ -9,7 +9,7 @@
 
         public function __construct($id, $turma, $curso, $aluno){
 
-            $this->id = $id;
+            $this->id    = $id;
             $this->turma = $turma;
             $this->curso = $curso;
             $this->aluno = $aluno;
