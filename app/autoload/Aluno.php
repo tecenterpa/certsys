@@ -4,7 +4,6 @@
         public  $id;
         public  $nome;
         public  $cpf;
-        public  $contato;
 
 
         //get and set id ----------- inicio
@@ -37,17 +36,7 @@
             $this->cpf = $cpf;
           }
         //get and set cpf ----------- fim
-
-
-        //get and set contato ----------- inicio
-        public function getContato(){
-            return $this->contato;
-          }
-      
-          public function setContato($contato){
-            $this->contato = $contato;
-          }
-        //get and set contato ----------- fim
+        
     }
 
 ?>
