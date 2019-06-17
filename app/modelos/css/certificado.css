@@ -92,3 +92,69 @@
     margin-right: 20px;
     margin-top: -782px;
 }
+
+.ass-aluno{
+    width: 250px;
+    border-top: 0.3mm solid;
+    margin-left: 30mm;
+    margin-top: -55mm
+}
+
+.ass-aluno p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+}
+
+.ass-diretor{
+    width: 250px;
+    border-top: 0.3mm solid;
+    margin-left: 130mm;
+    margin-top: -11mm;
+}
+
+.ass-diretor p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+    margin-bottom: -10px;
+}
+
+.ass-diretor h2{
+    font-size: 12px;
+    margin-bottom: -10px;
+}
+
+.ass-instrutor{
+    width: 250px;
+    border-top: 0.3mm solid;
+    margin-left: 30mm;
+    margin-top: 20mm;
+}
+
+.ass-instrutor p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+    margin-bottom: -10px;
+}
+
+.ass-instrutor h2{
+    font-size: 12px;
+    margin-bottom: -10px;
+}
+
+.ass-tec{
+    width: 250px;
+    border-top: 0.3mm solid;
+    margin-left: 130mm;
+    margin-top: -16mm;
+}
+
+.ass-tec p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+    margin-bottom: -10px;
+}
+
+.ass-tec h2{
+    font-size: 12px;
+    margin-bottom: -10px;
+}
