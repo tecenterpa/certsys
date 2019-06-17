@@ -1,11 +1,12 @@
 .certificado{
-    background-image: linear-gradient(to bottom, transparent 0%, #fff 70%), url("http://localhost/certsys/app/modelos/imagens/bg.jpg");
+    background-image: linear-gradient(to bottom, transparent 0%, #fff 65%), url("http://localhost/certsys/app/modelos/imagens/bg.jpg");
     background-repeat: no-repeat;
     -webkit-print-color-adjust: exact;
     height: 210mm;
     width: 297mm;
     margin-left: -8px;
-    margin-top: -21px
+    margin-top: -21px;
+    padding-bottom: 35px;
 }
 
 .curso-bandeira{
@@ -67,16 +68,16 @@
 }
 
 .linha{
-    height: 210mm;
+    height: 209.5mm;
     width: 3mm;
     background-color: #f8c52f;
 }
 
 .info{
-    height: 210mm;
+    height: 209.5mm;
     width: 10mm;
     background-color: #469348;
-    margin-top: -564.5px;
+    margin-top: -564px;
     margin-left: 287mm;
 }
 
@@ -90,7 +91,7 @@
     transform-origin: right top 0;
     float: right;
     margin-right: 20px;
-    margin-top: -782px;
+    margin-top: -784px;
 }
 
 .ass-aluno{
@@ -157,4 +158,16 @@
 .ass-tec h2{
     font-size: 12px;
     margin-bottom: -10px;
+}
+
+.logo-mvb{
+    height: 46mm;
+    width: 74mm;
+    margin-left: 200mm;
+    margin-top: -54mm;
+}
+
+.qrcode{
+    margin-left: 245mm;
+    margin-top: -190mm;
 }
