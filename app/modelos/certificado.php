@@ -6,6 +6,24 @@
     $qr .= "s=4&";
     $qr .= "t=P&";
 
+    require_once '../dompdf/autoload.inc.php';
+    
+    /*use Dompdf\Dompdf;
+    $pdf = new DOMPDF();
+        
+    $pdf->load_html('
+        oi
+    ');
+
+    $pdf->render();
+
+    $pdf->stream(
+        "certificado.pdf",
+        array(
+                "Attachment" => false
+            )
+        );*/
+
 ?>
 
 <!DOCTYPE html>

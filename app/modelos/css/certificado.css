@@ -2,6 +2,7 @@
     background-image: linear-gradient(to bottom, transparent 0%, #fff 65%), url("http://localhost/certsys/app/modelos/imagens/bg.jpg");
     background-repeat: no-repeat;
     -webkit-print-color-adjust: exact;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     height: 210mm;
     width: 297mm;
     margin-left: -8px;
@@ -24,14 +25,12 @@
     margin-top: -78px;
     padding-bottom: 60px;
     font-style: oblique;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #469348;
 }
 
 .text{
     background-color: #fff;
     opacity: 0.85;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     height: 100mm;
     width: 257mm;
     margin-left: 20mm;
@@ -83,7 +82,6 @@
 
 .text-info span{
     color: #fff;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 10px;
     font-weight: bolder;
     letter-spacing: 1.3px;
@@ -102,7 +100,6 @@
 }
 
 .ass-aluno p{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 13px;
 }
 
@@ -114,7 +111,6 @@
 }
 
 .ass-diretor p{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 13px;
     margin-bottom: -10px;
 }
@@ -132,7 +128,6 @@
 }
 
 .ass-instrutor p{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 13px;
     margin-bottom: -10px;
 }
@@ -149,8 +144,7 @@
     margin-top: -16mm;
 }
 
-.ass-tec p{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.ass-tec p{    
     font-size: 13px;
     margin-bottom: -10px;
 }
