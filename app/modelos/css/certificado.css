@@ -1,0 +1,94 @@
+.certificado{
+    background-image: linear-gradient(to bottom, transparent 0%, #fff 70%), url("http://localhost/certsys/app/modelos/imagens/bg.jpg");
+    background-repeat: no-repeat;
+    -webkit-print-color-adjust: exact;
+    height: 210mm;
+    width: 297mm;
+    margin-left: -8px;
+    margin-top: -21px
+}
+
+.curso-bandeira{
+    margin-left: 40px;
+    padding-top: 40px;
+}
+
+.curso-bandeira img{
+    height: 80px;
+}
+
+.curso-bandeira h1{
+    font-size: 28px;
+    margin-left: 140px;
+    margin-top: -78px;
+    padding-bottom: 60px;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #469348;
+}
+
+.text{
+    background-color: #fff;
+    opacity: 0.85;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100mm;
+    width: 257mm;
+    margin-left: 20mm;
+    border-radius: 40px;
+}
+
+.text h2{
+    font-size: 35px;
+    padding-top: 15px;
+}
+
+.text h3{
+    margin-top: -30px;
+}
+
+.text h4{
+    font-size: 18px;
+}
+
+.text h5{
+    width: 240mm;
+    font-size: 16px;
+    font-weight: inherit;
+}
+
+.text p{
+    padding-right: 10mm;
+    margin-bottom: -10px;
+    font-size: 13px;
+}
+
+.text span{
+    font-weight: bold;
+}
+
+.linha{
+    height: 210mm;
+    width: 3mm;
+    background-color: #f8c52f;
+}
+
+.info{
+    height: 210mm;
+    width: 10mm;
+    background-color: #469348;
+    margin-top: -564.5px;
+    margin-left: 287mm;
+}
+
+.text-info span{
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+    font-weight: bolder;
+    letter-spacing: 1.3px;
+    -webkit-transform: rotate(-90deg);
+    transform-origin: right top 0;
+    float: right;
+    margin-right: 20px;
+    margin-top: -782px;
+}
