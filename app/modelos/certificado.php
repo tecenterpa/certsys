@@ -6,16 +6,24 @@
     $qr .= "s=4&";
     $qr .= "t=P&";
 
-    require_once '../dompdf/autoload.inc.php';
     
-    /*use Dompdf\Dompdf;
+
+    /*require_once '../dompdf/autoload.inc.php';
+
+    $html = '';
+    
+    use Dompdf\Dompdf;
     $pdf = new DOMPDF();
-        
+
+    $pdf->setPaper('A4', 'landscape');
+    
     $pdf->load_html('
         oi
     ');
 
     $pdf->render();
+
+    
 
     $pdf->stream(
         "certificado.pdf",
@@ -103,4 +111,6 @@
         </div>
     </body>
 </html>
+
+
 

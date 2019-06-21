@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     -webkit-print-color-adjust: exact;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-    height: 210mm;
+    height: 209.5mm;
     width: 297mm;
     margin-left: -8px;
     margin-top: -21px;
@@ -30,7 +30,7 @@
 
 .text{
     background-color: #fff;
-    opacity: 0.85;
+    opacity: 0.88;
     height: 100mm;
     width: 257mm;
     margin-left: 20mm;
@@ -67,13 +67,13 @@
 }
 
 .linha{
-    height: 209.5mm;
+    height: 209mm;
     width: 3mm;
     background-color: #f8c52f;
 }
 
 .info{
-    height: 209.5mm;
+    height: 209mm;
     width: 10mm;
     background-color: #469348;
     margin-top: -564px;
