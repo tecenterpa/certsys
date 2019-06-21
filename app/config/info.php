@@ -19,4 +19,6 @@
     $diretorioS = DIRECTORY_SEPARATOR;
     $GLOBALS['path'] = "$pasta$urlB";
 
+    //title
+    $title = "MVB Cursos";
 ?>
