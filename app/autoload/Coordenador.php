@@ -5,7 +5,6 @@
         public  $id;
         public  $nome;
         public  $cpf;
-        public  $assinatura;
 
         //get and set id ----------- inicio
         public function getId(){
@@ -37,16 +36,6 @@
             $this->cpf = $cpf;
           }
         //get and set cpf ----------- fim
-
-        //get and set assinatura ----------- inicio
-        public function getAssinatura(){
-            return $this->assinatura;
-          }
-      
-          public function setAssinatura($assinatura){
-            $this->assinatura = $assinatura;
-          }
-        //get and set assinatura ----------- fim
 
     }
 

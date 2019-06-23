@@ -4,6 +4,7 @@
         public  $id;
         public  $nome;
         public  $cpf;
+        public  $turma;
 
 
         //get and set id ----------- inicio
@@ -36,6 +37,16 @@
             $this->cpf = $cpf;
           }
         //get and set cpf ----------- fim
+
+        //get and set turma ----------- inicio
+        public function getTurma(){
+            return $this->turma;
+          }
+      
+          public function setTurma($turma){
+            $this->turma = $turma;
+          }
+        //get and set turma ----------- fim
         
     }
 

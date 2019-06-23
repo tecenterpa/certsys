@@ -84,21 +84,18 @@
                     <center>
                         <p>Diretor Presidente</p>
                         <h2>MARCOS VINICIUS BENIGNO TEIXEIRA</h2>
-                        <p>CPF: 051.462.193-11</p>
                     </center>
                 </div>
                 <div class="ass-instrutor">
                     <center>
                         <p>Instrutor</p>
                         <h2>CICERO SEBASTIÃO DA SILVA</h2>
-                        <p>CPF: 598.816.665-20</p>
                     </center>
                 </div>
                 <div class="ass-tec">
                     <center>
                         <p>Técnico de Segurança</p>
                         <h2>ANDREIA TORRES DA MATA</h2>
-                        <p>CPF: 933.950.273-68</p>
                     </center>
                 </div>
                 <div class="logo-mvb">
