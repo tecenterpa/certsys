@@ -7,7 +7,7 @@
     width: 297mm;
     margin-left: -8px;
     margin-top: -21px;
-    padding-bottom: 35px;
+    padding-top: 17px;
 }
 
 .curso-bandeira{
@@ -21,6 +21,7 @@
 
 .curso-bandeira h1{
     font-size: 28px;
+    text-transform: uppercase;
     margin-left: 140px;
     margin-top: -78px;
     padding-bottom: 60px;
@@ -29,8 +30,6 @@
 }
 
 .text{
-    background-color: #fff;
-    opacity: 0.88;
     height: 100mm;
     width: 257mm;
     margin-left: 20mm;
@@ -48,6 +47,7 @@
 
 .text h4{
     font-size: 18px;
+    text-transform: uppercase;
 }
 
 .text h5{
@@ -67,17 +67,20 @@
 }
 
 .linha{
-    height: 209mm;
+    height: 209.5mm;
     width: 3mm;
+    border-radius: 10px;
     background-color: #f8c52f;
 }
 
 .info{
-    height: 209mm;
+    height: 209.5mm;
     width: 10mm;
     background-color: #469348;
     margin-top: -564px;
     margin-left: 287mm;
+    border-radius: 10px;
+    
 }
 
 .text-info span{
@@ -89,14 +92,13 @@
     transform-origin: right top 0;
     float: right;
     margin-right: 20px;
-    margin-top: -784px;
+    margin-top: -740px;
 }
 
 .ass-aluno{
     width: 250px;
-    border-top: 0.3mm solid;
     margin-left: 30mm;
-    margin-top: -55mm
+    margin-top: -55mm;
 }
 
 .ass-aluno p{
@@ -105,9 +107,13 @@
 
 .ass-diretor{
     width: 250px;
-    border-top: 0.3mm solid;
     margin-left: 130mm;
-    margin-top: -11mm;
+    margin-top: -40mm;
+}
+
+.ass-diretor img{
+    height: 120px;
+    margin-bottom: -15px;
 }
 
 .ass-diretor p{
@@ -122,9 +128,12 @@
 
 .ass-instrutor{
     width: 250px;
-    border-top: 0.3mm solid;
     margin-left: 30mm;
-    margin-top: 20mm;
+}
+
+.ass-instrutor img{
+    height: 100px;
+    margin-bottom: -15px;
 }
 
 .ass-instrutor p{
@@ -139,11 +148,14 @@
 
 .ass-tec{
     width: 250px;
-    border-top: 0.3mm solid;
     margin-left: 130mm;
-    margin-top: -16mm;
+    margin-top: -32mm;
 }
 
+.ass-tec img{
+    height: 90px;
+    margin-bottom: -15px;
+}
 .ass-tec p{    
     font-size: 13px;
     margin-bottom: -10px;
@@ -158,10 +170,19 @@
     height: 46mm;
     width: 74mm;
     margin-left: 200mm;
-    margin-top: -54mm;
+    margin-top: -45mm;
 }
 
 .qrcode{
     margin-left: 245mm;
     margin-top: -190mm;
+}
+
+.caixa-text{
+    background-color: #fff;
+    height: 100mm;
+    width: 257mm;
+    margin-left: 20mm;
+    margin-top: 10mm;
+    border-radius: 40px;
 }

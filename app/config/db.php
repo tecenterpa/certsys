@@ -3,7 +3,7 @@
 	$hostname = "localhost";
 	$username = "root";
 	$password = "";
-	$database = "moni";
+	$database = "certsys";
 
 	$conn = mysqli_connect($hostname, $username, $password, $database);
 	$conn->query("SET NAMES utf8");
